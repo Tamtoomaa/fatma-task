@@ -15,12 +15,8 @@ jobs:
 
 
    steps:
-    -  name: 'testing github action'
-       run: pwd
+   
+    -  uses: actions/checkout@v3 
 
-    -  name: 'testing github action'
-       run: pwd  
-
-
-    
-
+    -  name: 'login to docker hub'
+       run: docker login --username fatmaemadsaad --password dckr_pat_ixiq6rIK5vuJ_ffDPyRXs3SMTH0
