@@ -1,7 +1,7 @@
 on:
  push:
    branches:
-     -branch
+     - branch
 
 
 
@@ -15,9 +15,9 @@ jobs:
 
 
    steps:
-    -name: 'testing github action'
+    - name: 'testing github action'
     run: pwd
 
-      -name: 'testing printing'
+      - name: 'testing printing'
     run: echo fatma
 
